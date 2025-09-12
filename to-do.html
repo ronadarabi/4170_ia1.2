@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="to-do.css" />
+    </head>
+    <body>
+        <div class="container"> 
+            <h1>To-Do List</h1>
+            <div class="input"> 
+                <input type="text" placeholder="Teammate Name"/>
+                <button class="add-button">Add</button>
+            </div>
+            <div class="input"> 
+                <select>
+                    <option>Leo</option>
+                    <option>Laura</option>
+                    <option>Arnavi</option>
+                </select>
+                <input type="text" placeholder="Task" />
+                <input type="date" value="2099-09-01" />
+                <button class="assign-button">Assign</button>
+            </div>
+            <hr>
+            <div class="tasks"> 
+                <h2>Arnavi</h2>
+                <div class="task">
+                    Set up Flask server <span class="due-date">Due: 2099-10-01</span>
+                    <input type="checkbox" />
+                </div>
+                <div class="task">
+                    Set up Git repo <span class="due-date">Due: 2099-10-01</span>
+                    <input type="checkbox" />
+                </div>
+                <h2>Laura</h2>
+                <div class="task">
+                    Draft weekly plan <span class="due-date">Due: 2099-09-28</span>
+                    <input type="checkbox" />
+                </div>
+                <h2>Leo</h2>
+                <div class="task">
+                    Survey existing apps <span class="due-date">Due: 2099-09-28</span>
+                    <input type="checkbox" />
+                </div>
+            </div>
+            <hr> 
+            <div class="footer-buttons"> 
+                <button class="clear-button">Clear Completed</button>
+                <button class="reset-button">Reset</button>
+            </div>
+        </div>
+    </body>
+</html>
