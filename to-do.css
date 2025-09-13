@@ -39,7 +39,6 @@ hr {
 input[type="text"],
 input[type="date"] {
   font-size: 1em;
-  font-family: Arial, sans-serif; /* repeated because of date input */
   border-radius: 5px;
   border: 1px solid  #c3c3c3;
   padding: 8px;
@@ -47,13 +46,8 @@ input[type="date"] {
 }
 
 
-input[type="date"]::-webkit-calendar-picker-indicator {
-    display: none;
-    -webkit-appearance: none;
-}
-
 select { 
-    background-image: linear-gradient(lightgray, white);
+    background-image: linear-gradient(lightgray, rgb(230, 228, 228),white);
     font-size: 1em;
     padding: 0 8px; 
     border-radius: 5px;
